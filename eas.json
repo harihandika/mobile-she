@@ -1,0 +1,65 @@
+{
+  "cli": {
+    "version": ">= 3.9.1"
+  },
+  "build": {
+    "development": {
+      "env": {
+        "NODE_ENV": "development",
+        "API_URL": "https://api-stg-shemobile.acset.co",
+        "JWT_SECRET_KEY": "@p!.Sh3.m0b!13",
+        "X_ACCESS_TOKEN": "sh3_m0b!13"
+      },
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium",
+        "credentialsSource": "local"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview": {
+      "env": {
+        "NODE_ENV": "production",
+        "API_URL": "https://api-stg-shemobile.acset.co",
+        "JWT_SECRET_KEY": "@p!.Sh3.m0b!13",
+        "X_ACCESS_TOKEN": "sh3_m0b!13"
+      },
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium",
+        "credentialsSource": "local"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "env": {
+        "NODE_ENV": "production",
+        "API_URL": "https://api-shemobile.acset.co",
+        "JWT_SECRET_KEY": "@p!.Sh3.m0b!13",
+        "X_ACCESS_TOKEN": "sh3_m0b!13"
+      },
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium",
+        "credentialsSource": "local"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "it-dev@acset.co",
+        "ascAppId": "6448943163",
+        "appleTeamId": "6X4CP5PR9U"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+export { default as acsetLogo } from "./images/acset-logo.png";
+export { default as isafeLogo } from "./images/isafe-logo.png";
+export { default as acsetLogoLight } from "./images/acset-logo-light.png";
+export { default as carousel1 } from "./images/carousel-1.jpeg";
+export { default as carousel2 } from "./images/carousel-2.jpeg";
+export { default as carousel3 } from "./images/carousel-3.jpeg";
+export { default as carousel4 } from "./images/carousel-4.jpeg";
+export { default as imgPlaceholder } from "./images/img-placeholder.png";
+export { default as splash } from "./icons/splash.png";
